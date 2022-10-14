@@ -5,7 +5,8 @@
  * Return: returns 0
  */
 int main(void)
-{	
-puts("\"Programming is like building a multilingual puzzel");
-return (0);
+{
+	char new_str[] = "\"Programming is like building a multilingual puzzle";
+	puts(new_str);
+	return (0);
 }
