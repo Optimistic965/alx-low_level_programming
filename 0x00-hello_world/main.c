@@ -1,6 +1,7 @@
 #include <stdi0.h>
-/*
- *Here is my first programming file 
+/**
+ * main - print Hello world
+ * Return: it's an int function thus, it returns 0
  */
 int main(void)
 {
