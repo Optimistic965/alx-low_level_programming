@@ -3,8 +3,9 @@
 /* more headers goes there */
 #include <stdio.h>
 
-/* betty style doc for function main goes there
- * Main - entry point into the function
+/**
+ * betty style doc for function main goes there
+ * main - entry point into the function
  * Return: thus return 0
  */
 int main(void)
@@ -17,11 +18,11 @@ int main(void)
 	/* your code goes there */
 	last_digit = n % 10;
 
-	if ( last_digit > 5)
+	if (last_digit > 5)
 	{
 		printf("Last digit of %d is %d and is greater than 5\n", n, last_digit);
 	} 
-	else if ( last_digit == 0)
+	else if (last_digit == 0)
 	{
 		printf("Last digit of %d is %d and is 0\n", n, last_digit);
 	}
