@@ -9,7 +9,6 @@ int main(void)
 {
 	char loww = 'a';
 	char upp = 'A';
-	
 	for (; loww <= 'z'; loww++)
 	{
 		putchar(loww);
