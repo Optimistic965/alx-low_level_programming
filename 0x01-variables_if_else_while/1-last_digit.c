@@ -4,7 +4,6 @@
 #include <stdio.h>
 
 /**
- * betty style doc for function main goes there
  * main - entry point into the function
  * (short description present)
  * Return: thus return 0
