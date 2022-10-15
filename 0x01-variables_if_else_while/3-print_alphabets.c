@@ -9,21 +9,16 @@ int main(void)
 {
 	char loww = 'a';
 	char upp = 'A';
-
-	while (loww <= 'z' || upp <= 'Z')
+	
+	for (; loww <= 'z'; loww++)
 	{
-		if (loww == 'z')
-		{
+		putchar(loww);
+	}
+	while (upp <= 'Z')
+	{
 		putchar(upp);
 		upp++;
-		}
-		else
-		{
-		putchar(loww);
-		loww++;
-		}
 	}
-
 	putchar('\n');
 	return (0);
 }
