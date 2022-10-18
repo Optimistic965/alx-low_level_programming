@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include "main.h"
 
 /**
  * main - entry to the function
@@ -7,8 +7,15 @@
  * Return- thus return 0*/
 int main (void)
 {
-	char charater = "_putchar";
+	char charater[9] = "_putchar";
+	int i = 0;
 
-	printf("%d", character);
+	while (i < 0)
+	{
+		_putchar(character[i]);
+		i++;
+	}
+	
+	_putchar('\n');
 	return 0;
 }
