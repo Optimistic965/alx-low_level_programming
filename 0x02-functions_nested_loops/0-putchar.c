@@ -4,8 +4,9 @@
 /**
  * main - entry to the function
  * (this program print _putchar)
- * Return- thus return 0*/
-int main (void)
+ * Return- thus return 0
+ */
+int main(void)
 {
 	char charater[9] = "_putchar";
 	int i = 0;
@@ -17,5 +18,5 @@ int main (void)
 	}
 	
 	_putchar('\n');
-	return 0;
+	return (0);
 }

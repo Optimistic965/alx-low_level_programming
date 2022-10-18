@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "main.h"
 
-char printCharacter (char c)
+char _putchar(char c)
 {
 return putchar(c);
 }
