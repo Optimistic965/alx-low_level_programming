@@ -4,7 +4,7 @@
 /**
  * main - entry to the function
  * (this program print _putchar)
- * Return- thus return 0
+ * Return: thus return 0
  */
 int main(void)
 {
@@ -16,7 +16,6 @@ int main(void)
 		_putchar(charater[i]);
 		i++;
 	}
-	
 	_putchar('\n');
 	return (0);
 }
