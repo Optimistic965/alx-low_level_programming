@@ -13,7 +13,7 @@ int main(void)
 
 	while (i < 10)
 	{
-		char result = _putchar(charater[i]);
+		char result = _putchar(charater);
 		
 		printf("%c", result);
 		i++;
