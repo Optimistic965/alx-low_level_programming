@@ -13,9 +13,11 @@ int main(void)
 
 	while (i < 0)
 	{
-		_putchar(charater[i]);
+		char result = _putchar(charater[i]);
+		printf("%c", result);
 		i++;
 	}
-	_putchar('\n');
+	char newline = _putchar('\n');
+	printf("%c", newline);
 	return (0);
 }
