@@ -15,7 +15,7 @@ int main(void)
 	{
 		char result =(char)(_putchar(wrd[i]));
 
-		printf("%s", result);
+		printf("%c", result);
 		i++;
 	}
 	printf("\n");
