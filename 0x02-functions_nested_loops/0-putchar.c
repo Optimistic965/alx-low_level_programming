@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	char wrd[8] = '_putchar';
+	char wrd[9] = '_putchar';
 	int i = 0;
 
 	while (i < 9)
