@@ -13,11 +13,11 @@ int main(void)
 
 	while (i < 9)
 	{
-		char result =(char)(_putchar(wrd[i]));
+		char result = (char)(_putchar(wrd[i]));
 
 		printf("%c", result);
 		i++;
 	}
-	printf("\n");
+
 	return (0);
 }
