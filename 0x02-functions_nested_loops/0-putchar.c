@@ -13,7 +13,7 @@ int main(void)
 
 	while (i < 5)
 	{
-		char result = _putchar(wrd[i]);
+		char result = _putchar(wrd);
 
 		printf("%c", result);
 		i++;
