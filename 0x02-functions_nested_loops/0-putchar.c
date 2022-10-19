@@ -8,15 +8,12 @@
 int main(void)
 {
 	char wrd[] = "_putchar";
-	char line[] = "\n";
 	int i = 0;
 
-	while (i < 9)
+	while (i < 10)
 	{
 		_putchar(wrd[i]);
 		i++;
 	}
-
-	_putchar(line[]);
 	return (0);
 }
