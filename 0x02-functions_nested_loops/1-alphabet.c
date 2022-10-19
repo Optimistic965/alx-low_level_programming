@@ -1,4 +1,4 @@
-#include main.h
+#include main.h;
 
 /**
  * main - entry to the main function
@@ -11,8 +11,8 @@ void print_alphabet(void)
 
 	while (letter <= 'z') 
 	{
-		-putchar(ch);
+		_putchar(ch);
 		ch++;
 	}
-	-putchar('\n');
+	_putchar('\n');
 }
