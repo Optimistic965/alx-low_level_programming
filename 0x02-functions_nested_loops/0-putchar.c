@@ -17,7 +17,6 @@ int main(void)
 		printf("%c", result);
 		i++;
 	}
-	char newline = _putchar('\n');
-	printf("%c", newline);
+	printf('\n');
 	return (0);
 }
