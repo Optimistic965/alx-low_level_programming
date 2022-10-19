@@ -17,6 +17,6 @@ int main(void)
 		i++;
 	}
 
-	_putchar(line)
+	_putchar(line[]);
 	return (0);
 }
