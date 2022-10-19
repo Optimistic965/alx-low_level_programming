@@ -12,7 +12,7 @@ int main(void)
 
 	while (i < 9)
 	{
-		_putchar(wrd);
+		_putchar(wrd[i]);
 		i++;
 	}
 
