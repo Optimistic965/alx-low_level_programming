@@ -8,6 +8,7 @@
 int main(void)
 {
 	char wrd[] = "_putchar";
+	char line[] = "\n";
 	int i = 0;
 
 	while (i < 9)
@@ -16,5 +17,6 @@ int main(void)
 		i++;
 	}
 
+	_putchar(line)
 	return (0);
 }
