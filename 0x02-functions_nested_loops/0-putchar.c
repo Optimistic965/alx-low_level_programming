@@ -11,9 +11,9 @@ int main(void)
 	char charater[9] = "_putchar";
 	int i = 0;
 
-	while (i < 10)
+	while (i < 9)
 	{
-		char result = _putchar(charater);
+		char result = _putchar(charater[i]);
 		
 		printf("%c", result);
 		i++;
