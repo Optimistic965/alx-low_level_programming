@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	char wrd[] = "_putchar\n";
+	char wrd[] = "_putchar";
 	int i = 0;
 
 	while (i < 10)
