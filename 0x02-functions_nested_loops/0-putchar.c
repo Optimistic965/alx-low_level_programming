@@ -7,10 +7,10 @@
  */
 int main(void)
 {
-	char wrd[] = "_putchar";
+	char wrd[] = "_putchar\n";
 	int i = 0;
 
-	while (i < 10)
+	while (i < 9)
 	{
 		_putchar(wrd[i]);
 		i++;
