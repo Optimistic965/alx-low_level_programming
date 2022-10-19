@@ -8,14 +8,14 @@
  */
 int main(void)
 {
-	char wrd[9] = "_putchar";
+	char wrd[] = "_putchar";
 	int i = 0;
 
 	while (i < 9)
 	{
 		char result = (char)_putchar(wrd[i]);
 
-		printf("%c", result);
+		printf("%s", result);
 		i++;
 	}
 	printf("\n");
