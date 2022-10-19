@@ -11,7 +11,7 @@ int main(void)
 	char wrd[] = "_putchar";
 	int i = 0;
 
-	while (i < 9)
+	while (i < 5)
 	{
 		char result = _putchar(wrd[i]);
 
