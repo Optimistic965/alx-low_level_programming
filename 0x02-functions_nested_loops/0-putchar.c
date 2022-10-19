@@ -8,12 +8,12 @@
  */
 int main(void)
 {
-	char charater[9] = "_putchar";
+	char wrd = "_putchar";
 	int i = 0;
 
 	while (i < 9)
 	{
-		char result = _putchar(charater[i]);
+		char result = _putchar(wrd);
 
 		printf("%c", result);
 		i++;
