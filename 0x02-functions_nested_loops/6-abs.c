@@ -2,7 +2,6 @@
 
 /**
  * _abs - function that convert any data type into an int
- * @r: the int to be converted
  * @n: the int to be converted
  * (short description bout what the function does)
  * Return: just return int 0
