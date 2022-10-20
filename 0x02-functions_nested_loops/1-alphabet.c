@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - entry to the main function
+ * print_alphabet - entry to the main function
  *( short description bout main)
  *Return: thus return 0
  */
