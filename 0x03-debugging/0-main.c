@@ -9,17 +9,8 @@
 int main(void)
 {
 	int i = 0;
-	char test[9] = "0 is zero";
-	char result = positive_or_negative(i);
 
-	if (result == test)
-	{
-		printf("true");
-	}
-	else
-	{
-		printf("false");
-	}
+	positive_or_negative(i);
 
 	return(0);
 }
