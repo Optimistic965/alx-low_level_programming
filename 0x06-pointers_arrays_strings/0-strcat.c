@@ -7,12 +7,11 @@
  *  (short description bout the function)
  *  @dest: varibale to be modified
  *  @src: variable to be concated
- *  Return: this return a charater been modified 
+ *  Return: this return a charater been modified
  */
 
 char *_strcat(char *dest, char *src)
 {
 	strcat( dest, src);
-
 	return (dest);
 }
