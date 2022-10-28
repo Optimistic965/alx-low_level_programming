@@ -8,21 +8,16 @@
  * @n: number of element in the array
  * Return: function returns a reverse of the provided array
  */
-
 void reverse_array(int *a, int n)
 {
-	int i = 1;
+	int i, j, tmp;
 
-	if( n == i)
+	j = n - 1;
+
+	for (i = 0; i < n / 2; i++)
 	{
-		printf("%d", a[n - i]);
-	}
-	else
-	{
-		while (i <= n)
-		{
-			printf("%d, ", a[n - i]);
-			i++;
-		}
+		tmp = a[i];
+		a[i] = a[j];
+		a[j--] = tmp;
 	}
 }
