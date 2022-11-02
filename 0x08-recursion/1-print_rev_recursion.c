@@ -9,6 +9,7 @@
 
 void _print_rev_recursion(char *s)
 {
+	char s = *s;
 	int len = strlen(s);
 	int x = len - 1;
 	
