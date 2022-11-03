@@ -9,7 +9,7 @@
 
 int _sqrt_recursion(int n)
 {
-	int res = sqrt(n);
+	(int)double res = sqrt((double)n);
 
 	return res;
 }
