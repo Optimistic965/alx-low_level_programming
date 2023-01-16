@@ -30,3 +30,4 @@ char *_strstr(char *haystack, char *needle)
 		haystack = scanned;
 	}
 	return (0);
+}
